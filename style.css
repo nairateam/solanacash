@@ -143,24 +143,6 @@ ul {
     border-radius: 10px;
 }
 
-@media (max-width: 574px) {
-    .hero-title {
-        color: #fff;
-        font-weight: 800;
-        font-size: 2.1rem;
-        text-align: center;
-        line-height: 45px;
-        text-transform: capitalize;
-        padding: 80px 8% 25px 8%;
-    }
-
-    .hero-follow {
-        text-align: center;
-        font-size: 15px;
-        padding-bottom: 15px;
-    }
-}
-
 /* .lite-paper:hover {
 
 } */
@@ -208,21 +190,52 @@ ul {
     border-image: linear-gradient(to right, #14F195, #9945FF) 1;  
 }
 
+
+@media (max-width: 574px) {
+    .hero-title {
+        color: #fff;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        line-height: 38px;
+        text-transform: capitalize;
+        padding: 50px 0 25px 0;
+    }
+
+    .hero-info {
+        padding: 0;
+        text-align: center;
+        font-weight: 500;
+        font-size: 0.9rem;
+        line-height: 28px;
+    }
+
+    #hero-bottom {
+        padding: 45px 10%;
+    }
+
+    .hero-follow {
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 15px;
+    }
+
+    .lite-paper {
+        width: 7.5rem;
+        height: 3.5rem;
+    }
+
+    .pitch-deck {
+        width: 7.5rem;
+        height: 3.5rem;
+    }
+}
+
 /* Features section */
 
 #features {
     box-sizing: border-box;
     margin: 130px 8%;
-}
-
-.features-info {
-    font-weight: 400;
-    font-size: 0.9rem;
-    line-height: 33px;
-    /* or 220% */
-    text-align: center;
-    text-transform: uppercase;
-    color: #DAE3FF;
 }
 
 #features h2 {
@@ -233,7 +246,7 @@ ul {
     color: #FFFFFF;
 }
 
-#features > p {
+#features > general-p {
     font-weight: 400;
     font-size: 14px;
     line-height: 25px;
@@ -245,7 +258,7 @@ ul {
     padding: 0 9% 25px 9%;
 }
 
-#features p {
+.general-p {
         font-weight: 400;
         font-size: 14px;
         line-height: 25px;
@@ -254,6 +267,16 @@ ul {
         text-transform: capitalize;
         color: rgba(255, 255, 255, 1);
         padding: 0 9%;
+} 
+
+.features-info {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 33px;
+    /* or 220% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #DAE3FF;
 }
 
 #box-1:hover {
@@ -315,6 +338,17 @@ ul {
 }
 
 @media (max-width: 574px) {
+
+    #features {
+        margin: 30px 5%;
+    }
+
+    .general-p {
+        font-size: 0.8rem;
+        line-height: 20px;
+        padding: 0 5%;
+    }
+
     #box-1 {
         padding: 0 1rem;
         width: 80%;
