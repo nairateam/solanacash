@@ -1,0 +1,353 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #000;
+    max-width: 100%;
+    font-family: 'inter', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* Top Section */
+
+#head {
+    background: url(/images/hero-bg.png);
+    background-color: #000;
+    background-size: cover;
+    background-position: bottom;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 35px;
+    padding-right: 8%;
+    margin-left: 8%;
+
+}
+
+ul {
+    margin-top: 10px;
+}
+
+.top-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.stake {
+    color: #fff;
+    border: 0px solid;
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    width: 170px;
+    height: 50px;
+    font-weight: 500;
+    line-height: 19px;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 1320px) {
+    ul {
+        display: none;
+    }
+}
+
+/* Hero Section */
+
+.hero-banner {
+    margin: 2rem;
+}
+
+.hero-title {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.87rem;
+    text-align: center;
+    line-height: 55px;
+    text-transform: capitalize;
+    padding: 110px 10% 25px 10%;
+}
+
+.hero-info {
+    color: #fff;
+    padding: 0 15%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 33px;
+}
+
+#hero-bottom {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 45px 30%;
+}
+
+.inline-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 68px;
+}
+
+.lite-paper {
+    color: #fff;
+    box-sizing: border-box;
+    width: 10.5rem;
+    height: 4rem;
+    margin: 0.5rem;
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    border: 0px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+/* .lite-paper:hover {
+
+} */
+
+.pitch-deck {
+    color: #fff;
+    box-sizing: border-box;
+    width: 10.5rem;
+    height: 4rem;
+    margin: 0.5rem;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+}
+
+/* .pitch-deck:hover {
+
+} */
+
+#hero-icon {
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+.fa {
+    margin: .2rem 1.2rem;
+}
+
+.hero-follow {
+    text-align: center;
+}
+
+#sol-underline {
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 33px;
+    color: #fff;
+    /* border-image: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%); */
+    border-radius: 15px 10px;
+    margin-bottom: 32px;
+    border-bottom: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #14F195, #9945FF) 1;  
+}
+
+/* Features section */
+
+#features {
+    box-sizing: border-box;
+    margin: 130px 8%;
+}
+
+.features-info {
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 33px;
+    /* or 220% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #DAE3FF;
+}
+
+#features h2 {
+    font-size: 1.88rem;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#features > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+
+    padding: 0 9% 25px 9%;
+}
+
+#features p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+        /* or 179% */
+        text-align: center;
+        text-transform: capitalize;
+        color: rgba(255, 255, 255, 1);
+        padding: 0 9%;
+}
+
+#box-1:hover {
+   
+    transform: scale(1.1); /*  */
+}
+
+#box-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    padding: 0 2.4rem;
+    border: 0px solid;
+    width: 60%;
+    height: 8rem;
+    transition: transform ease-out .3s; /* Animation */
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    border-radius: 1.25rem;
+}
+
+#box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    padding: 0 2.4rem;
+    border: 0px solid;
+    width: 60%;
+    height: 8rem;
+    /* transition: transform .2s; Animation */
+    transition: transform ease-out .3s;
+    background: linear-gradient(90deg, #3C65C9 0%, #9945FF 100%);
+    border-radius: 1.25rem;
+}
+
+#box-2:hover {
+   
+    transform: scale(1.1); /*  */
+}
+
+#box-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem auto;
+    padding: 0 3.4rem;
+    border: 0px solid;
+    width: 60%;
+    height: 8rem;
+    transition: transform ease-out .3s; /* Animation */
+    background: linear-gradient(270deg, #3C65C9 0%, #99B6FD 100%);
+    border-radius: 1.25rem;
+}
+
+#box-3:hover {
+    transform: scale(1.1); /*  */
+}
+
+/* Experience Section */
+
+#experience {
+    box-sizing: border-box;
+    margin: 130px 8%;
+}
+
+#experience > h2 {
+    font-size: 1.88rem;
+    line-height: 36px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#experience > p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 179% */
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 1);
+
+    padding: 0 9% 25px 9%;
+}
+
+.two-rows {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-row {
+    color: #fff;
+}
+
+.left-row {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    padding-right: 1.2rem;
+}
+
+li {
+    display: flex;
+    align-items: flex-start;
+}
+
+.fa-shield-halved {
+    color: #14F195;
+    width: 33.3%;
+    margin: 0;
+}
+
+.exp-icon {
+    border: 0px solid;
+    padding: 1.5rem;
+    width: auto;
+    background-size: cover;
+    border-radius: 50%;
+    background: #232325;
+    margin: 0px 2rem 4rem 2rem;
+}
+
+span > p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+    letter-spacing: 0.01em;
+}
+
+
