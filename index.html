@@ -34,7 +34,28 @@
         <nav>
             
             <img src="images/sc_logo.svg" alt="" class="logo">
-            <img src="/images/icons/logo-icon.png" alt="" class="logo-2">
+            <!-- <img src="images/icons/logo-icon.png" alt="" class="logo-2"> -->
+            <div class="toggle">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"><img src="images/icons/logo-icon.png" alt="" class="logo-2"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-start" style="background-color: #000;" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title" id="offcanvasNavbarLabel"><img src="images/sc_logo.svg" alt="" class="log" style="width:100%;"></div>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <a href="" class="top-link">About</a>
+                        <a href="" class="top-link">Eco-System</a>
+                        <a href="" class="top-link">Solana Cash</a>
+                        <a href="" class="top-link">Roadmap</a>
+                        <a href="" class="top-link">Tokenomics</a>
+                        <a href="" class="top-link">Staking</a>
+                      </ul>
+                    </div>
+                  </div>
+            </div>
 
             <ul>
                 <a href="" class="top-link">About</a>
@@ -47,6 +68,7 @@
 
             <button type="button" class="btn stake">Stake Now</button>
           </nav>
+          
     </div>
 
     <!-- Hero Section -->
@@ -167,7 +189,7 @@
 
     <!-- Chart -->
 
-    <section id="chart">
+    <!-- <section id="chart">
 
         <p class="features-info">Comparison chart</p>
 
@@ -246,7 +268,88 @@
                         Agreement</td></tr>
                 </table>
             </div>
-          </div>
+          </div> -->
+
+          <section id="chart">
+
+            <p class="features-info">Comparison chart</p>
+    
+            <p class="sub-info">
+                Blockchain Comparison Chart, Why Solana?
+            </p>
+    
+            <div class="row">
+                <div class="col">
+                    <table class="table table-borderless table-start">
+                        <tr><th>List of features</th></tr>
+                        <tr><td>Transaction Per Seconds</td></tr>
+                        <tr><td>Fees</td></tr>
+                        <tr><td>Block Time</td></tr>
+                        <tr><td>Consensus Mechanism</td></tr>
+                    </table>
+                </div>
+                <div class="col col-active">
+                    <table class="table tab-active table-borderless">
+                        <tr><th>Solana</th></tr>
+                        <tr><td>59,000 tps</td></tr>
+                        <tr><td>$0.00001</td></tr>
+                        <tr><td>0.4 sec 
+                            (1 block)</td></tr>
+                        <tr><td>Proof of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Ethereum</th></tr>
+                        <tr><td>17 tps</td></tr>
+                        <tr><td>$ 2</td></tr>
+                        <tr><td>5 min
+                            (35 blocks)</td></tr>
+                        <tr><td>Proof of Work</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>EOS</th></tr>
+                        <tr><td>3900 tps</td></tr>
+                        <tr><td>Free</td></tr>
+                        <tr><td>2.5 mins
+                            (2/3 of BPs)</td></tr>
+                        <tr><td>Delegated Proof
+                            of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Cardano</th></tr>
+                        <tr><td>~250 tps</td></tr>
+                        <tr><td>$0.002</td></tr>
+                        <tr><td>~2 min</td></tr>
+                        <tr><td>Ouroboros Proof 
+                            of Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Tezos</th></tr>
+                        <tr><td>50 tps</td></tr>
+                        <tr><td>$0.00232</td></tr>
+                        <tr><td>30 min</td></tr>
+                        <tr><td>Liquid Proof of
+                            Stake</td></tr>
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-borderless">
+                        <tr><th>Stellar</th></tr>
+                        <tr><td>2000 tps</td></tr>
+                        <tr><td>$0.000001</td></tr>
+                        <tr><td>4 sec</td></tr>
+                        <tr><td>Federated Byzantine
+                            Agreement</td></tr>
+                    </table>
+                </div>
+              </div>
 
           <!-- Carousel -->
         
@@ -278,58 +381,86 @@
         <p class="sub-info">
             Core Ecosystem
         </p>
-
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card-1">
-                  <div class="card-body">
-                    <h5 class="card-title">Solana Cash APP</h5>
-                    <p class="card-text">Introducing the SolCard Visa , spend and make purchases online anywhere and anytime using SolanaCash</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card-2">
-                  <div class="card-body">
-                    <h5 class="card-title">SolCard</h5>
-                    <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
+        
+        <div class="eco-box-mobile">
+            <div class="card-1">
+                <div class="card-body">
+                  <h5 class="card-title">Solana Cash APP</h5>
+                  <p class="card-text">Introducing the SolCard Visa , spend and make purchases online anywhere and anytime using SolanaCash</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
                 </div>
               </div>
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="card-3">
-                  <div class="card-body">
-                    <h5 class="card-title">Bridge</h5>
-                    <p class="card-text">Token bridge with multiple blockchain</p>
-                    <a href="#" class="btn btn-card">Learn more</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card-4">
-                  <div class="card-body">
-                    <h5 class="card-title">Solanacash Staking</h5>
-                    <p class="card-text">Lock your solana cash token to earn more rewards with attractive APY</p>
-                    <a href="#" class="btn btn-card">Stake now</a>
-                  </div>
+
+        <div class="eco-box-mobile">
+            <div class="card-2">
+                <div class="card-body">
+                  <h5 class="card-title">SolCard</h5>
+                  <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
                 </div>
               </div>
         </div>
-        <div class="row">
-            <div class="col">
-                <div class="card last-card">
-                  <div class="card-body last-cd">
-                    <h5 class="card-title">P2P dapp</h5>
-                    <span id="group-card">
-                        <p class="card-text">Trade your crypto safely for fiat (or other cryptocurrencies) privately and securely using solanacash P2P network.</p>
-                        <a href="#" class="btn btn-cardd">Learn more</a>
-                    </span>
 
-                  </div>
+        <div class="eco-box-mobile">
+            <div class="card-3">
+                <div class="card-body">
+                  <h5 class="card-title">Bridge</h5>
+                  <p class="card-text">Token bridge with multiple blockchain</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="eco-box-mobile">
+            <div class="card-4">
+                <div class="card-body">
+                  <h5 class="card-title">Solanacash Staking</h5>
+                  <p class="card-text">Lock your solana cash token to earn more rewards with attractive APY</p>
+                  <a href="#" class="btn btn-card">Stake now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="eco-box">
+            <div class="card-1">
+                <div class="card-body">
+                  <h5 class="card-title">Solana Cash APP</h5>
+                  <p class="card-text">Introducing the SolCard Visa , spend and make purchases online anywhere and anytime using SolanaCash</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+              <div class="card-2">
+                <div class="card-body">
+                  <h5 class="card-title">SolCard</h5>
+                  <p class="card-text">Introducing the SolCard, spend and make purchases online anywhere and anytime using SolanaCash</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+              <div class="card-3">
+                <div class="card-body">
+                  <h5 class="card-title">Bridge</h5>
+                  <p class="card-text">Token bridge with multiple blockchain</p>
+                  <a href="#" class="btn btn-card">Learn more</a>
+                </div>
+              </div>
+            <div class="card-4">
+                <div class="card-body">
+                  <h5 class="card-title">Solanacash Staking</h5>
+                  <p class="card-text">Lock your solana cash token to earn more rewards with attractive APY</p>
+                  <a href="#" class="btn btn-card">Stake now</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="eco-2">
+            <div class="last-card">
+                <div class="last-cd">
+                  <h5 class="card-title">P2P dapp</h5>
+                  <span id="group-card">
+                      <p class="card-text">Trade your crypto safely for fiat (or other cryptocurrencies) privately and securely using solanacash P2P network.</p>
+                      <a href="#" class="btn btn-cardd">Learn more</a>
+                  </span>
                 </div>
               </div>
         </div>
@@ -348,7 +479,7 @@
 
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
+              <div class="carousel-item active" data-bs-interval="0">
                 <div class="rm-row">
                     <div class="rm-container">
                         <p>2021</p>
@@ -379,7 +510,67 @@
                             </ul>
                         </div>
                     </div>
-        
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="0">
+                <div class="rm-row">
+                    <div class="rm-container">
+                        <p>2021</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q3</h3>
+                            <ul>
+                                <li>Business Concept Formation</li>
+                                <li>Core Team Formation</li>
+                                <li>Strategic Planning</li>
+                                <li>Research and Analysis</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="rm-container">
+                        <p>2021</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q3</h3>
+                            <ul>
+                                <li> <p>Business Concept Formation</p>
+                                    </li>
+                                <li>Core Team Formation</li>
+                                <li>Strategic Planning</li>
+                                <li>Research and Analysis</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+
+    </section>
+
+    <section id="roadmapp">
+
+        <p class="features-info">Roadmap</p>
+
+        <p class="sub-info">
+            How it all started
+        </p>
+
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="0">
+                <div class="rm-row">
                     <div class="rm-container">
                         <p>2021</p>
                         <img src="images/icons/vector.svg" alt="" class="rm-icon">
@@ -396,11 +587,60 @@
                     </div>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                s
+              <div class="carousel-item" data-bs-interval="0">
+                <div class="rm-row">
+                    <div class="rm-container">
+                        <p>2021</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q3</h3>
+                            <ul>
+                                <li>Business Concept Formation</li>
+                                <li>Core Team Formation</li>
+                                <li>Strategic Planning</li>
+                                <li>Research and Analysis</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
               </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+              <div class="carousel-item" data-bs-interval="0">
+                <div class="rm-row">
+                    <div class="rm-container">
+                        <p>2021</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q3</h3>
+                            <ul>
+                                <li> <p>Business Concept Formation</p>
+                                    </li>
+                                <li>Core Team Formation</li>
+                                <li>Strategic Planning</li>
+                                <li>Research and Analysis</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="0">
+                <div class="rm-row">
+                    <div class="rm-container">
+                        <p>2021</p>
+                        <img src="images/icons/vector.svg" alt="" class="rm-icon">
+                        <span class="rm-line"></span>
+                        <div class="rm-card">  
+                            <h3>Q3</h3>
+                            <ul>
+                                <li>Business Concept Formation</li>
+                                <li>Core Team Formation</li>
+                                <li>Strategic Planning</li>
+                                <li>Research and Analysis</li>                    
+                            </ul>
+                        </div>
+                    </div>
+                </div>
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -412,8 +652,10 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
+          
 
     </section>
+
 
     <!-- Tokenomics Section -->
 
@@ -523,6 +765,7 @@ Launch Price:  $0.12
 
     <section id="footer">
         <div id="footer-top">
+            <div class="panel-top">
             <div class="link-panel">
                 <h2>Quick-Links</h2>
                 <a href="">Home</a>
@@ -542,12 +785,12 @@ Launch Price:  $0.12
                 <a href="">Terms & Condition</a>
                 <a href="">Risk Disclosure</a>
             </div>
-            <div class="link-panel">
+            <div class="link-panell">
                 <h2>Product</h2>
                 <a href="">P2P Mobile App</a>
                 <a href="">Staking Platform</a>
             </div>
-            <div class="link-panel">
+            <div class="link-panell">
                 <h2>Community</h2>
                 <a href=""><i class="fa fa-twitter"></i> Twitter</a>
                 <a href=""><i class="fa fa-linkedin"></i> LinkedIn</a>
@@ -555,6 +798,28 @@ Launch Price:  $0.12
                 <a href=""><i class="fa fa-medium"></i> Medium</a>
                 <a href=""><i class="fa fa-facebook"></i> Facebook</a>
                 <a href=""><i class="fa fa-telegram"></i> Telegram</a>
+            </div>
+            </div>
+            <div class="panel-foot">
+                <div class="link-panel">
+                    <h2>Product</h2>
+                    <a href="">P2P Mobile App</a>
+                    <a href="">Staking Platform</a>
+                </div>
+                <div class="link-panel">
+                    <h2>Community</h2>
+                    <a href=""><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href=""><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <a href=""><i class="fa fa-instagram"></i> Instagram</a>
+                    <a href=""><i class="fa fa-medium"></i> Medium</a>
+                    <a href=""><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href=""><i class="fa fa-telegram"></i> Telegram</a>
+                </div>
+                <div class="link-panel lp">
+                    <h2>Product</h2>
+                    <a href="">P2P Mobile App</a>
+                    <a href="">Staking Platform</a>
+                </div>
             </div>
     
         </div>
