@@ -897,9 +897,45 @@ td {
         align-items: center;
      }
 
+     .card-1 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-2 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-3 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-4 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
      .card-body {
+         position: relative;
+         text-align: center;
          width: 25rem;
      }
+
+     .btn-card {
+        position: absolute;
+        color: #fff;
+        background: #0A1B30;
+        border-radius: 30px;
+        left: 25%;
+        bottom: -1rem;
+        padding: 0.5rem 2.5rem;
+    }
 }
 
 @media (max-width:580px) {
@@ -918,9 +954,46 @@ td {
         align-items: center;
      }
 
+     .card-1 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-2 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-3 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .card-4 {
+        text-align: center;
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+     .btn-card {
+        position: absolute;
+        color: #fff;
+        background: #0A1B30;
+        border-radius: 30px;
+        left: 25%;
+        bottom: -1rem;
+        padding: 0.5rem 2.5rem;
+    }
+
      .card-body {
+         position: relative;
+         text-align: center;
          width: 20rem;
      }
+
 }
 
 /* Roadmap section */
