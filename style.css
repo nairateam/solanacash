@@ -89,7 +89,7 @@ nav ul {
 }
 
 @media (max-width: 1200px) {
-    ul {
+    nav ul {
         display: none;
     }
 }
