@@ -853,6 +853,16 @@ td {
     background: #99B6FD;
 }
 
+.card-5 .card-body {
+    height: 250px;
+    padding: 2rem 1rem;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0.5rem;
+    background: #14C9F1;
+}
+
+
 .btn-card {
     color: #fff;
     background: #0A1B30;
@@ -896,6 +906,11 @@ td {
         justify-items: center;
         align-items: center;
      }
+
+     .eco-2 {
+        display: none;
+    }
+
     .card-1 {
         position: relative;
         margin-bottom: 1rem;
@@ -916,6 +931,37 @@ td {
         margin-bottom: 1rem;
      }
 
+     .card-5 {
+        position: relative;
+        margin-bottom: 1rem;
+     }
+
+
+     /* .last-card {
+        background: #000;
+        padding: 0rem 0rem;
+        margin: 0rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+        width: 28rem;
+        display: block;
+        justify-content: center
+    }
+
+
+    .last-cd {
+        background: #14C9F1;
+        height: 250px;
+        padding: 2rem 1rem;
+        border-radius: 8px;
+        margin: 0.5rem;
+    }
+
+    #group-card {
+        display: inline-block;
+        width: 100%;
+    } */
+
     .card-body {
          position: relative;         width: 25rem;
      }
@@ -929,11 +975,16 @@ td {
         bottom: 2rem;
         padding: 0.5rem 2.5rem;
     }
+    
 }
 
 @media (max-width:580px) {
 
     .eco-box {
+        display: none;
+    }
+
+    .eco-2 {
         display: none;
     }
 
