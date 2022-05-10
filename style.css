@@ -902,6 +902,27 @@ td {
      }
 }
 
+@media (max-width:580px) {
+
+    .eco-box {
+        display: none;
+    }
+
+    .eco-box-mobile {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        justify-items: center;
+        align-items: center;
+     }
+
+     .card-body {
+         width: 15rem;
+     }
+}
+
 /* Roadmap section */
 
 .rm-container {
