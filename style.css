@@ -77,15 +77,10 @@ nav ul {
 }
 
 .stake:hover {
-    color: #fff;
-    border: 0px solid;
     background: linear-gradient(261.78deg, #9945FF -1.89%, #14F195 99.57%);
-    width: 170px;
-    height: 50px;
-    font-weight: 500;
-    line-height: 19px;
-    border-radius: 10px;
-
+    transition-duration: 1s, 1s;
+    transition-delay: 1s;
+    transition-property: margin-right, color;
 }
 
 @media (max-width: 1200px) {
@@ -109,7 +104,6 @@ nav ul {
         padding-top: 25px;
         padding-right: 5%;
         margin-left: 5%;
-    
     }
 
     .logo {
@@ -141,18 +135,12 @@ nav ul {
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
-    
 
-    /* .stake {
-        color: #fff;
-        border: 0px solid;
-        background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
-        width: 100px;
-        height: 50px;
-        font-weight: 500;
-        line-height: 19px;
-        border-radius: 10px;
-    } */
+    .stake {
+        width: 140px;
+        height: 45px;
+    }
+    
 }
 
 /* Hero Section */
@@ -210,14 +198,10 @@ nav ul {
 }
 
 .lite-paper:hover {
-    color: #fff;
-    box-sizing: border-box;
-    width: 10.5rem;
-    height: 4rem;
-    margin: 0.5rem;
+    transition-duration: .5s, .5s;
+    transition-delay: .5s;
+    transition-property: margin-right, color;
     background: linear-gradient(261.78deg, #9945FF -1.89%, #14F195 99.57%);
-    border: 0px solid rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
 }
 
 .pitch-deck {
@@ -231,14 +215,10 @@ nav ul {
 }
 
 .pitch-deck:hover {
-    color: #000;
-    background: #fff;
-    box-sizing: border-box;
-    width: 10.5rem;
-    height: 4rem;
-    margin: 0.5rem;
     border: 2px solid #000;
-    border-radius: 10px;
+    background: #fff;
+    transition-duration: .3s, .3s;
+    transition-property: margin-right, color;
 }
 
 #hero-icon {
@@ -705,7 +685,7 @@ span > p {
 }
 
 .table-start td {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tab-active {
@@ -718,8 +698,8 @@ tr {
 
 td {
     font-weight: 300;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 15px;
+    line-height: 18px;
     padding-top: 25px;
     padding-right: 0px;
     padding-left: 0px;
@@ -1231,7 +1211,7 @@ td {
     }
 
     #tokenomics .right-row {
-        display: flex;
+        display: none;
         justify-content: flex-start;
         align-items: flex-start;
         padding: 0.5rem;
@@ -1242,6 +1222,7 @@ td {
     #tokenomics .token-image {
         width: 50%;
     }
+
 }
 
 /* Partners */
@@ -1314,11 +1295,11 @@ td {
         text-align: center;
         text-transform: capitalize;
         color: #FFFFFF;
-        padding-bottom: 38px;
+        padding: 28px 10px;
     }
 
     #partners .stake-box {
-        border-radius: 10px;
+        border-radius: 8px;
     }
 }
 /* Footer */
@@ -1451,3 +1432,80 @@ td {
         margin-left: 0;
     }
 }
+
+/* Coming Soon */
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 0 auto; */
+}
+
+.container h2 {
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 56px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.coming-soon {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+
+    color: #DAE3FF;
+}
+
+ input {
+    background: #232325;
+    border: 0;
+    height: 60px;
+    width: 100%;
+    min-width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    color: white;
+  }
+  
+  input:focus {
+    outline: none;
+  }
+  
+  input::placeholder {
+    color: white;
+  }
+  
+.submit {
+    background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    padding: 10px 25px;
+    position: absolute;
+    right: 20px;
+    top: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  } 
+  
+  .pt-site-footer__submit {
+    position: relative;
+    left: 25%;
+    margin: 45px auto;
+    display: inline-block;
+    width: 50%;
+  } 
