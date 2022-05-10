@@ -125,6 +125,22 @@ nav ul {
         display: flex;
         width: 10%;
     }
+
+    .offcanvas-header {
+        position: relative;
+    }
+
+    .offcanvas-header .text-reset {
+        position: absolute;
+        top: 1rem;
+        right: 4rem;
+    }
+
+    .text-reset .fa {
+        background: linear-gradient(261.78deg, #14F195 -1.89%, #9945FF 99.57%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
     
 
     /* .stake {
