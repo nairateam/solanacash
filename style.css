@@ -529,6 +529,11 @@ span > p {
 }
 
 @media (max-width:1075px) {
+    #experience {
+        box-sizing: border-box;
+        margin: 10px 8%;
+    }
+    
     .two-rows {
         display: flex;
         flex-direction: column-reverse;
@@ -739,6 +744,20 @@ td {
 
 .media-image {
     padding: 0 0.8rem;
+}
+
+@media (max-width:1300px) {
+    .media-container {
+        max-width: 100%;
+        background: #232325;
+        padding: 45px 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        --bs-gutter-x: 0.2rem;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
 }
 
 /* Ecosystem */
@@ -1229,24 +1248,24 @@ td {
     100% { width: 10%; }
   }
 
-.bar20 {
-    animation: load20 3s normal forwards;
+.bar10 {
+    animation: load10 3s normal forwards;
     background-color: #14F195;
 }
 
-@keyframes load20 {
+@keyframes load10 {
     0% { width: 0; }
-    100% { width: 20%; }
+    100% { width: 10%; }
   }
 
-.bar30 {
+.bar40 {
     animation: load30 3s normal forwards;
     background-color: #14F195;
 }
 
-@keyframes load30 {
+@keyframes load40 {
     0% { width: 0; }
-    100% { width: 30%; }
+    100% { width: 40%; }
   }
 
 .bar13 {
