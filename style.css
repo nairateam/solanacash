@@ -564,6 +564,11 @@ span > p {
     padding: 45px 8%;
 }
 
+#Blockchain .sub-info {
+    font-size: 30px;
+    font-weight: 300;
+}
+
 #Blockchain .two-rows {
     display: flex;
     flex-direction: row;
@@ -649,6 +654,12 @@ span > p {
     padding: 45px 8%;
 }
 
+#chart .sub-info {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
 #chart .row {
     --bs-gutter-x: 0.2rem;
     display: flex;
@@ -726,6 +737,12 @@ td {
     max-width: 100%;
 }
 
+#media .sub-info {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 32px;
+}
+
 .media-container {
     max-width: 100%;
     background: #232325;
@@ -764,6 +781,12 @@ td {
 
 #ecosystem {
     padding: 45px 8%;
+}
+
+#ecosystem .sub-info {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 32px;
 }
 
 
@@ -1071,6 +1094,11 @@ td {
 
 /* Roadmap section */
 
+#roadmap .sub-info {
+    font-weight: 300;
+    font-size: 30px;
+}
+
 .rm-container {
     display: flex;
     flex-direction: column;
@@ -1082,7 +1110,8 @@ td {
 .rm-icon {
     margin: 0 auto;
     border-radius: 50%;
-    background-color: #14F195;
+    background: #14F195;
+    background-size: contain;
     padding: 20px;
 }
 
@@ -1134,6 +1163,11 @@ td {
 }
 
 @media (max-width:735px) {
+
+    #roadmap .sub-info {
+        font-weight: 300;
+        font-size: 30px;
+    }
 
     #roadmapp {
         display: block;
