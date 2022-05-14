@@ -1086,8 +1086,8 @@ td {
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 1fr;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
+        grid-column-gap: 1px;
+        grid-row-gap: 1px;
         justify-items: center;
         align-items: center;
      }
@@ -1102,31 +1102,31 @@ td {
      }
 
      .card-1 {
-        height: 350px;
+        height: 280px;
         position: relative;
-        margin-bottom: 0.2rem;
+        margin: 0rem;
      }
 
      .card-2 {
-        height: 350px;
+        height: 280px;
         position: relative;
-        margin-bottom: 0.2rem;
+        margin: 0rem;
      }
 
      .card-3 {
-        height: 350px;
+        height: 280px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-4 {
-        height: 350px;
+        height: 280px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-5 {
-        height: 350px;
+        height: 280px;
         position: relative;
         margin-bottom: 0.2rem;
      }
@@ -1144,6 +1144,8 @@ td {
      .card-body {
          position: relative;
          width: 19rem;
+         margin: 0;
+         padding: 0;
      }
 
 }
