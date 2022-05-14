@@ -1102,31 +1102,31 @@ td {
      }
 
      .card-1 {
-        height: 310px;
+        height: 350px;
         position: relative;
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.2rem;
      }
 
      .card-2 {
-        height: 310px;
+        height: 350px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-3 {
-        height: 310px;
+        height: 350px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-4 {
-        height: 310px;
+        height: 350px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-5 {
-        height: 310px;
+        height: 350px;
         position: relative;
         margin-bottom: 0.2rem;
      }
@@ -1143,7 +1143,7 @@ td {
 
      .card-body {
          position: relative;
-         width: 18rem;
+         width: 19rem;
      }
 
 }
