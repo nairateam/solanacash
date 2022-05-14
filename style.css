@@ -137,8 +137,10 @@ nav ul {
     }
 
     .stake {
-        width: 140px;
-        height: 45px;
+        font-weight: 300;
+        line-height: 12px;
+        width: 150px;
+        height: 50px;
     }
     
 }
@@ -551,6 +553,14 @@ span > p {
         margin: 2rem auto;
     }
 
+    .exp-item {
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: center;
+        margin: 1rem;
+    }
+
     .exp-image {
         width: 100%;
         height: auto;
@@ -788,7 +798,7 @@ td {
     
       .flex-container > .flex-item{
         background: #ffecb300;
-        padding: 18px;
+        /* padding: 18px; */
         height: 70px;
         width: 200px;
       }
@@ -798,7 +808,7 @@ td {
         }
     
 
-@media (max-width:1300px) {
+@media (max-width:800px) {
     /* .media-container {
         max-width: 100%;
         background: #232325;
@@ -810,6 +820,17 @@ td {
         flex-wrap: nowrap;
         overflow-x: auto;
     } */
+
+    .flex-container > .flex-item{
+        background: #ffecb300;
+        /* padding: 18px; */
+        height: 70px;
+        width: 150px;
+      }
+
+      .media-tab {
+        width: 80%;
+        }
 }
 
 /* Ecosystem */
