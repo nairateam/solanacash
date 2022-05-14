@@ -52,6 +52,36 @@ p {
     margin: 0 1rem;
 }
 
+@media (max-width:620px) {
+    .stiky-note p {
+        color: #000;
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+        display: inline-block;
+        margin: 15px auto;
+    }
+
+    .stiky-note .stik {
+        font-size: 12px;
+        font-weight: 300;
+        border: 0px solid;
+        border-radius: 10PX;
+        background: #000;
+        color: #fff;
+        padding: 0.3rem 0.8rem;
+        margin: 0 0.7rem;
+    }
+
+    .stiky-note {
+        position: sticky;
+        top: 0;
+        background: #14f195;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+}
+
 #head {
     background: url(images/hero-bg.png);
     background-color: #000;
