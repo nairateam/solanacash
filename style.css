@@ -471,10 +471,10 @@ nav ul {
 
 .exp-item {
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
     text-align: left;
-    align-items: flex-start;
-    margin-bottom: 1rem;
+    align-items: center;
+    margin: 2.5rem;
 }
 
 .exp-item h2 {
@@ -507,6 +507,7 @@ nav ul {
     align-items: flex-start;
     border: 0px solid;
     padding: 1rem;
+    margin-right: 2rem;
     border-radius: 50%;
     background: #232325;
 }
@@ -566,6 +567,7 @@ span > p {
 
 #Blockchain .sub-info {
     font-size: 24px;
+    line-height: 32px;
     font-weight: 300;
 }
 
@@ -586,6 +588,8 @@ span > p {
 }
 
 #Blockchain .sub-info {
+    font-size: 24px;
+    font-weight: 300;
     text-align: justify;
     margin-left: 0;
     padding-left: 0;
@@ -625,6 +629,12 @@ span > p {
 }
 
 @media (max-width:840px) {
+
+    #Blockchain .sub-info {
+        font-size: 18px;
+        /* font-weight: 300; */
+    }
+
     #Blockchain .two-rows {
         display: flex;
         flex-direction: column-reverse;
@@ -657,6 +667,7 @@ span > p {
 #chart .sub-info {
     font-size: 30px;
     font-weight: 500;
+    line-height: 38px;
     padding-bottom: 32px;
 }
 
@@ -743,28 +754,52 @@ td {
     padding-bottom: 32px;
 }
 
-.media-container {
+/* .media-container {
     max-width: 100%;
     background: #232325;
     padding: 45px 8%;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    --bs-gutter-x: 0.2rem;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-}
-
-.media-container::-webkit-scrollbar {
-    display: none;
 }
 
 .media-image {
     padding: 0 0.8rem;
 }
 
+.media-tab {
+    width: 50%;
+    } */
+
+    .flex-container {
+        display: flex;
+        justify-content: center; 
+        align-items: stretch; 
+        /* flex-flow: row wrap; */ 
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        align-content: space-around;
+        padding: 45px 8%;
+        background-color: #232325;
+        height: 100%;
+        gap: 5px;
+    
+      }
+    
+      .flex-container > .flex-item{
+        background: #ffecb300;
+        padding: 18px;
+        height: 70px;
+        width: 200px;
+      }
+
+      .media-tab {
+        width: 80%;
+        }
+    
+
 @media (max-width:1300px) {
-    .media-container {
+    /* .media-container {
         max-width: 100%;
         background: #232325;
         padding: 45px 8%;
@@ -774,7 +809,7 @@ td {
         --bs-gutter-x: 0.2rem;
         flex-wrap: nowrap;
         overflow-x: auto;
-    }
+    } */
 }
 
 /* Ecosystem */
@@ -1046,31 +1081,31 @@ td {
      }
 
      .card-1 {
-        height: 290px;
+        height: 310px;
         position: relative;
         margin-bottom: 0.5rem;
      }
 
      .card-2 {
-        height: 290px;
+        height: 310px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-3 {
-        height: 290px;
+        height: 310px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-4 {
-        height: 290px;
+        height: 310px;
         position: relative;
         margin-bottom: 0.2rem;
      }
 
      .card-5 {
-        height: 290px;
+        height: 310px;
         position: relative;
         margin-bottom: 0.2rem;
      }
