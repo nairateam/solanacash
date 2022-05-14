@@ -506,7 +506,7 @@ nav ul {
 
 .exp-icon {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     border: 0px solid;
     padding: 1rem;
     margin-right: 2rem;
@@ -899,17 +899,19 @@ td {
     border-radius: 8px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
 }
 
 .last-cd {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 #group-card {
+    padding-left: 45%;
     display: inline-block;
-    width: 50%;
+    width: 100%;
 }
 
 .card-1 .card-body {
@@ -1169,7 +1171,6 @@ td {
     margin: 0 auto;
     border-radius: 50%;
     background: #14F195;
-    background-size: contain;
     padding: 20px;
 }
 
